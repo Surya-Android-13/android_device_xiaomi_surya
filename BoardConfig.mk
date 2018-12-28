@@ -188,6 +188,7 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2022-06-05
